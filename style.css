@@ -61,7 +61,7 @@ nav{
 
 .subSection{
     color: var(--primary);
-
+    font-style: italic;
 }
 
 .nav-item:hover .dropdown-menu{
@@ -87,9 +87,19 @@ nav{
     box-shadow: 0 0 20px rgba(0,0,0,0.3); /* Increase the spread radius for larger shadow */
   }
 
-/* .img{
-    border-radius: 0;
-} */
+.cardInfo{
+    background: #ffffff;
+    padding: 60px 40px;
+    font-size: 17px;
+    width: 340px;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 20px #9a9a9a;
+    position: absolute;
+    right: 0;
+    top: 15%;
+    left: 60%;
+}
 
 .overlay {
     position: relative;
